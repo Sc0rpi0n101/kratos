@@ -1,0 +1,36 @@
+{
+  "Ory (SaaS)": [
+    {
+      "Introduction": [
+        "index"
+      ]
+    }
+  ],
+  "Open Source": [
+    {
+      "Overview": {
+        "$slug": "docs"
+      }
+    },
+    {
+      "Ory Kratos": {
+        "$slug": "kratos"
+      }
+    },
+    {
+      "Ory Keto": {
+        "$slug": "keto"
+      }
+    },
+    {
+      "Ory Hydra": {
+        "$slug": "hydra"
+      }
+    },
+    {
+      "Ory Oathkeeper": {
+        "$slug": "oathkeeper"
+      }
+    }
+  ]
+}

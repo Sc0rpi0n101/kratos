@@ -7,14 +7,8 @@ const baseUrl = config.baseUrl ? config.baseUrl : `/${config.projectSlug}/docs/`
 
 const links = [
   {
-    to: '/',
-    activeBasePath: baseUrl,
-    label: `Docs`,
-    position: 'left'
-  },
-  {
-    href: 'https://www.ory.sh/docs',
-    label: 'Ecosystem',
+    to: 'https://www.ory.sh/',
+    label: `Home`,
     position: 'left'
   },
   {
@@ -25,17 +19,17 @@ const links = [
   {
     href: `https://github.com/ory/${githubRepoName}/discussions`,
     label: 'Discussions',
-    position: 'left'
+    position: 'right'
   },
   {
     href: 'https://www.ory.sh/chat',
-    label: 'Chat',
-    position: 'left'
+    label: 'Slack',
+    position: 'right'
   },
   {
     href: `https://github.com/ory/${githubRepoName}`,
     label: 'GitHub',
-    position: 'left'
+    position: 'right'
   }
 ]
 
